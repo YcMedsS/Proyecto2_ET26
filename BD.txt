@@ -1,0 +1,231 @@
+use agenciaP;
+create table enero (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+
+);
+
+create table febrero (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+create table marzo (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+create table abril (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+create table mayo (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+create table junio (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+
+create table julio (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+create table agosto (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+create table septiembre (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+create table octubre (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+create table noviembre (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+
+create table diciembre (
+NroVuelo varchar (50) primary key,
+Origen varchar (50),
+Destino varchar (50),
+FechaOrigen varchar (50),
+FechaVuelta varchar (50)
+);
+
+insert into enero values ('#001', 'CABA Buenos Aires', 'Puerto Iguazú Misiones', '01', '08');
+insert into enero values ('#002', 'CABA Buenos Aires', 'Córdoba Córdoba', '02', '07');
+insert into enero values ('#003', 'CABA Buenos Aires', 'Rawson Chubut', '03', '10');
+insert into enero values ('#004', 'Rosario SantaFe', 'CABA Buenos Aires', '04', '11');
+insert into enero values ('#005', 'CABA Buenos Aires', 'Bariloche Rio Negro', '05', '12');
+insert into enero values ('#006', 'CABA Buenos Aires', 'Posadas Misiones', '06', '13');
+insert into enero values ('#007', 'Rosario Santa Fe', 'Villa Carlos Paz Córdoba', '1', '8');
+insert into enero values ('#008', 'Usuahia Tierra Del Fuego', 'CABA Buenos Aires', '1', '8');
+insert into enero values ('#009', 'Córdoba Córdoba', 'CABA Buenos Aires', '1', '8');
+insert into enero values ('#010', 'CABA Buenos Aires', 'Rosario Santa Fe', '1', '8');
+
+insert into febrero values ('#011', 'Rosario Santa Fe', 'Villa Carlos Paz Córdoba', '1', '8');
+insert into febrero values ('#012', 'CABA Buenos Aires', 'Villa Carlos Paz Córdoba', '2', '10');
+insert into febrero values ('#013', 'CABA Buenos Aires', 'Usuahia Tierra Del Fuego', '3', '10');
+insert into febrero values ('#014', 'Usuahia Tierra Del Fuego', 'CABA Buenos Aires', '1', '08');
+insert into febrero values ('#015', 'CABA Buenos Aires', 'Mendoza Mendoza', '1', '14');
+insert into febrero values ('#016', 'Formosa Formosa', 'CABA Buenos Aires', '15', null);
+insert into febrero values ('#017', 'Córdoba Córdoba', 'Bariloche Rio Negro', '17', '24');
+insert into febrero values ('#018', 'Avellaneda Buenos Aires', 'Villa Carlos Paz Córdoba', '20', '27');
+insert into febrero values ('#019', 'Rosario Santa Fe', 'CABA Buenos Aires', '23', null);
+insert into febrero values ('#020', 'CABA Buenos Aires', 'Mendoza Mendoza', '21', '25');
+
+insert into marzo values ('#021', 'CABA Buenos Aires', 'Villa Carlos Paz Córdoba', '1', '7');
+insert into marzo values ('#022', 'Rosario Santa Fe', 'Villa Carlos Paz Córdoba', '3', '10');
+insert into marzo values ('#023', 'CABA Buenos Aires', 'Formosa Formosa', '2', null);
+insert into marzo values ('#024', 'Usuahia Tierra Del Fuego', 'CABA Buenos Aires', '4', '11');
+insert into marzo values ('#025', 'Mendoza Mendoza', 'Villa Carlos Paz Córdoba', '5', '19');
+insert into marzo values ('#026', 'Córdoba Córdoba', 'Villa Carlos Paz Córdoba', '6', '13');
+insert into marzo values ('#027', 'Córdoba Córdoba', 'CABA Buenos Aires', '8', '17');
+insert into marzo values ('#028', 'Avellaneda Buenos Aires', 'Usuahia Tierra Del Fuego', '12', null);
+insert into marzo values ('#029', 'Avellaneda Buenos Aires', 'Mendoza Mendoza', '15', null);
+insert into marzo values ('#030', 'Santiago Del Estero Santiago Del Estero', 'Villa Carlos Paz Córdoba', '16', '22');
+insert into marzo values ('#031', 'CABA Buenos Aires', 'Termas Santiago del Estero', '18', '25');
+insert into marzo values ('#032', 'CABA Buenos Aires', 'Santiago Del Estero Santiago Del Estero', '20', '27');
+insert into marzo values ('#033', 'Usuahia Tierra Del Fuego', 'Termas Santiago Del Estero', '24', '31');
+
+insert into abril values ('#034', 'Rawson Chubut', 'Villa Carlos Paz Córdoba', '1', '9');
+insert into abril values ('#035', 'CABA Buenos Aires', 'Santiago Del Estero Termas', '3', '11');
+insert into abril values ('#036', 'CABA Buenos Aires', 'Villa Carlos Paz Córdoba', '5', '12');
+insert into abril values ('#037', 'Santiago Del Estero', 'CABA Buenos Aires', '5', null);
+insert into abril values ('#038', 'Godoy Cruz Mendoza', 'Córdoba Córdoba', '7', '14');
+insert into abril values ('#039', 'Formosa Formosa', 'Santiago Del Estero Santiago Del Estero', '15', null);
+insert into abril values ('#040', 'Santiago Del Estero Santiago Del Estero', 'Bariloche Rio Negro', '17', '24');
+insert into abril values ('#041', 'Rawson Chubut', 'Villa Carlos Paz Córdoba', '20', '27');
+insert into abril values ('#042', 'Rosario Santa Fe', 'Rawson Chubut', '23', null);
+insert into abril values ('#043', 'CABA Buenos Aires', 'Termas Santiago Del Estero', '21', '25');
+insert into abril values ('#044', 'Córdoba Córdoba', 'Mendoza Mendoza', '24', '30');
+
+insert into mayo values ('#045', 'CABA Buenos Aires', 'Godoy Cruz Mendoza', '1', '7');
+insert into mayo values ('#046', 'Rosario Santa Fe', 'Bariloche Rio Negro', '3', '10');
+insert into mayo values ('#047', 'CABA Buenos Aires', 'Bariloche Rio Negro', '2', null);
+insert into mayo values ('#048', 'Usuahia Tierra Del Fuego', 'Córdoba Córdoba', '4', '11');
+insert into mayo values ('#049', 'Rawson Chubut', 'Villa Carlos Paz Córdoba', '5', '19');
+insert into mayo values ('#050', 'Córdoba Córdoba', 'Bariloche Rio Negro', '6', '13');
+insert into mayo values ('#051', 'Villa Carlos Paz Córdoba', 'CABA Buenos Aires', '10', null);
+insert into mayo values ('#052', 'Avellaneda Buenos Aires', 'Termas Santiago Del Estero', '12', '19');
+insert into mayo values ('#053', 'Usuahia Tierra Del Fuego', 'Santiago del estero Santiago del estero', '15', null);
+insert into mayo values ('#054', 'Santiago Del Estero Santiago Del Estero', 'Bariloche Rio Negro', '16', '22');
+insert into mayo values ('#055', 'CABA Buenos Aires', 'Puerto Iguazú Misiones', '18', '25');
+insert into mayo values ('#056', 'CABA Buenos Aires', 'Posadas Misiones', '20', '27');
+insert into mayo values ('#057', 'Córdoba Córdoba', 'Posadas Misiones', '24', '31');
+insert into mayo values ('#058', 'Usuahia Tierra Del Fuego', 'CABA Buenos Aires', '24', '31');
+insert into mayo values ('#059', 'Posadas Misiones', 'Caba Buenos Aires', '24', '31');
+insert into mayo values ('#060', 'Santiago Del Estero Santiago Del Estero', 'Rawson Chubut', '24', '31');
+
+insert into junio values ('#061', 'Avellaneda Buenos Aires', 'Termas Santiago Del Estero', '1', '5');
+insert into junio values ('#062', 'Usuahia Tierra Del Fuego', 'Córdoba Córdoba', '3', null);
+insert into junio values ('#063', 'CABA Buenos Aires', 'Posadas Misiones', '4', '14');
+insert into junio values ('#064', 'Córdoba Córdoba', 'Puerto Iguazú Misiones', '7', null);
+insert into junio values ('#065', 'CABA Buenos Aires', 'Termas Santiago Del Estero', '9', '16');
+insert into junio values ('#066', 'Formosa Formosa', 'Córdoba Córdoba', '11', null);
+insert into junio values ('#067', 'Santiago Del Estero Santiago Del Estero', 'Bariloche Rio Negro', '12', '19');
+insert into junio values ('#068', 'Rawson Chubut', 'CABA Buenos aires', '15', null);
+insert into junio values ('#069', 'Mendoza Mendoza', 'Posadas Misiones', '23', null);
+insert into junio values ('#070', 'Posadas Misiones', 'Córdoba Córdoba', '21', '25');
+
+insert into julio values ('#071', 'Avellaneda Buenos Aires', 'Posadas Misiones', '1', '7');
+insert into julio values ('#072', 'Usuahia Tierra Del Fuego', 'CABA Buenos Aires', '4', null);
+insert into julio values ('#073', 'CABA Buenos Aires', 'Santiago Del Estero Santiago Del Estero', '7', '14');
+insert into julio values ('#074', 'Córdoba Córdoba', 'Usuahia Tierra Del Fuego', '8', null);
+insert into julio values ('#075', 'Avellaneda Buenos Aires', 'Termas Santiago Del Estero', '9', '13');
+insert into julio values ('#076', 'CABA Buenos Aires', 'Córdoba Córdoba', '12', null);
+insert into julio values ('#077', 'Córdoba Córdoba', 'Puerto Iguazú Misiones', '14', '21');
+insert into julio values ('#078', 'Mendoza Mendoza', 'Villa Carlos Paz Córdoba', '17', null);
+insert into julio values ('#079', 'Santiago Del Estero Santiago Del Estero', 'Puerto iguazú Misiones', '23', 30);
+insert into julio values ('#080', 'Avellaneda Buenos Aires', 'Villa Carlos Paz Córdoba', '25', null);
+
+insert into agosto values ('#081', 'CABA Buenos Aires', 'Usuahia Tierra del Fuego', '1', '7');
+insert into agosto values ('#082', 'Avellaneda Buenos Aires', 'Córdoba Córdoba', '4', null);
+insert into agosto values ('#083', 'Mendoza Mendoza', 'Córdoba Córdoba', '7', '14');
+insert into agosto values ('#084', 'Santiago Del Estero Santiago Del Estero', 'Villa Carlos Paz Córdoba', '8', null);
+insert into agosto values ('#085', 'CABA Buenos Aires', 'Termas Santiago Del Estero', '9', '13');
+insert into agosto values ('#086', 'Termas Santiago Del Estero', 'Villa Carlos Paz Córdoba', '12', null);
+insert into agosto values ('#087', 'Córdoba Córdoba', 'Rawson Chubut', '14', '21');
+insert into agosto values ('#088', 'Avellaneda Buenos Aires', 'Villa Carlos Paz Córdoba', '17', null);
+insert into agosto values ('#089', 'Santiago Del Estero Santiago Del Estero', 'Mendoza Mendoza', '23', 30);
+insert into agosto values ('#090', 'Godoy Cruz Mendoza', 'Usuahia Tierra Del Fuego', '25', null);
+
+insert into septiembre values ('#091', 'CABA Buenos Aires', 'Córdoba Córdoba', '1', '7');
+insert into septiembre values ('#092', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '4', null);
+insert into septiembre values ('#093', 'Mendoza Mendoza', 'CABA Buenos Aires', '7', '14');
+insert into septiembre values ('#094', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '8', null);
+insert into septiembre values ('#095', 'CABA Buenos Aires', 'Termas Santiago Del Estero', '9', '13');
+insert into septiembre values ('#096', 'Termas Santiago Del Estero', 'Villa Carlos Paz Córdoba', '12', null);
+insert into septiembre values ('#097', 'CABA Buenos Aires', 'Rawson Chubut', '14', '21');
+insert into septiembre values ('#098', 'Avellaneda Buenos Aires', 'Villa Carlos Paz Córdoba', '17', null);
+insert into septiembre values ('#099', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '23', 30);
+insert into septiembre values ('#100', 'Córdoba Córdoba', 'Usuahia Tierra Del Fuego', '25', null);
+
+insert into octubre values ('#091', 'CABA Buenos Aires', 'Córdoba Córdoba', '1', '7');
+insert into octubre values ('#092', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '4', null);
+insert into octubre values ('#093', 'Mendoza Mendoza', 'CABA Buenos Aires', '7', '14');
+insert into octubre values ('#094', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '8', null);
+insert into octubre values ('#095', 'CABA Buenos Aires', 'Termas Santiago Del Estero', '9', '13');
+insert into octubre values ('#096', 'Termas Santiago Del Estero', 'Villa Carlos Paz Córdoba', '12', null);
+insert into octubre values ('#097', 'CABA Buenos Aires', 'Rawson Chubut', '14', '21');
+insert into octubre values ('#098', 'Avellaneda Buenos Aires', 'Villa Carlos Paz Córdoba', '17', null);
+insert into octubre values ('#099', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '23', 30);
+insert into octubre values ('#100', 'Córdoba Córdoba', 'Usuahia Tierra Del Fuego', '25', null);
+
+insert into noviembre values ('#091', 'CABA Buenos Aires', 'Córdoba Córdoba', '1', '7');
+insert into noviembre values ('#092', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '4', null);
+insert into noviembre values ('#093', 'Mendoza Mendoza', 'CABA Buenos Aires', '7', '14');
+insert into noviembre values ('#094', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '8', null);
+insert into noviembre values ('#095', 'CABA Buenos Aires', 'Termas Santiago Del Estero', '9', '13');
+insert into noviembre values ('#096', 'Termas Santiago Del Estero', 'Villa Carlos Paz Córdoba', '12', null);
+insert into noviembre values ('#097', 'CABA Buenos Aires', 'Rawson Chubut', '14', '21');
+insert into noviembre values ('#098', 'Avellaneda Buenos Aires', 'Villa Carlos Paz Córdoba', '17', null);
+insert into noviembre values ('#099', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '23', 30);
+insert into noviembre values ('#100', 'Córdoba Córdoba', 'Usuahia Tierra Del Fuego', '25', null);
+
+insert into diciembre values ('#091', 'CABA Buenos Aires', 'Córdoba Córdoba', '1', '7');
+insert into diciembre values ('#092', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '4', null);
+insert into diciembre values ('#093', 'Mendoza Mendoza', 'CABA Buenos Aires', '7', '14');
+insert into diciembre values ('#094', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '8', null);
+insert into diciembre values ('#095', 'CABA Buenos Aires', 'Termas Santiago Del Estero', '9', '13');
+insert into diciembre values ('#096', 'Termas Santiago Del Estero', 'Villa Carlos Paz Córdoba', '12', null);
+insert into diciembre values ('#097', 'CABA Buenos Aires', 'Rawson Chubut', '14', '21');
+insert into diciembre values ('#098', 'Avellaneda Buenos Aires', 'Villa Carlos Paz Córdoba', '17', null);
+insert into diciembre values ('#099', 'Santiago Del Estero Santiago Del Estero', 'Córdoba Córdoba', '23', 30);
+insert into diciembre values ('#100', 'Córdoba Córdoba', 'Usuahia Tierra Del Fuego', '25', null);
